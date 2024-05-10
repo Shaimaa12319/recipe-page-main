@@ -1,0 +1,62 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  background-size: contain;
+  min-height: 100vh;
+}
+.parent {
+  background-color: hsl(0, 0%, 100%);
+  border: 1px;
+  border-radius: 3%;
+  padding: 25px 25px 0px 25px;
+  width: 35%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+}
+
+.section1-image,
+.img {
+  object-fit: contain;
+  width: 100%;
+  height: 80%;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+h1 {
+  font-size: 40px;
+  font-family: "Young Serif";
+  src: url("assets\fonts\young-serif\YoungSerif-Regular.ttf");
+  font-weight: 400px;
+}
+.section-three {
+  background-color: hsl(330, 100%, 98%);
+  margin: 30px;
+  padding: 3px 5px 5px 5px;
+}
+.section-three h3 {
+  color: hsl(332, 51%, 32%);
+}
+li {
+  padding: 5px;
+}
+
+h3 {
+  color: hsl(14, 45%, 36%);
+}
+
+.section-four,
+.section-five {
+  background-color: hsl(0, 0%, 100%) hsl(330, 100%, 98%) hsl(30, 18%, 87%)
+    hsl(30, 10%, 34%) hsl(24, 5%, 18%);
+}
+p {
+  font-size: 16px;
+}
